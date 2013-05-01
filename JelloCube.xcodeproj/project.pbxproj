@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C3CDB4714DA4D4700AD6CC6 /* performanceCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C3CDB4514DA4D4600AD6CC6 /* performanceCounter.cpp */; };
+		4C4595C614CE0C8F00529752 /* JelloCube.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4C4595C514CE0C8F00529752 /* JelloCube.1 */; };
+		4C4595DE14CE0CB900529752 /* input.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C4595CC14CE0CB900529752 /* input.cpp */; };
+		4C4595DF14CE0CB900529752 /* jello.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C4595CE14CE0CB900529752 /* jello.cpp */; };
+		4C4595E014CE0CB900529752 /* physics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C4595D114CE0CB900529752 /* physics.cpp */; };
+		4C4595E114CE0CB900529752 /* pic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C4595D314CE0CB900529752 /* pic.cpp */; };
+		4C4595E214CE0CB900529752 /* ppm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C4595D514CE0CB900529752 /* ppm.cpp */; };
+		4C4595E314CE0CB900529752 /* showCube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C4595D614CE0CB900529752 /* showCube.cpp */; };
+		4C4595ED14CE0DBB00529752 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C4595EC14CE0DBB00529752 /* OpenGL.framework */; };
+		4C4595EF14CE0DEB00529752 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C4595EE14CE0DEB00529752 /* GLUT.framework */; };
+		4CE4374A14E03A910092D71B /* ActorPicking.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CE4374914E03A910092D71B /* ActorPicking.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4C4595BD14CE0C8F00529752 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				4C4595C614CE0C8F00529752 /* JelloCube.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4C3CDB4514DA4D4600AD6CC6 /* performanceCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = performanceCounter.cpp; sourceTree = "<group>"; };
+		4C3CDB4614DA4D4700AD6CC6 /* performanceCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = performanceCounter.h; sourceTree = "<group>"; };
+		4C4595BF14CE0C8F00529752 /* JelloCube */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JelloCube; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C4595C514CE0C8F00529752 /* JelloCube.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = JelloCube.1; sourceTree = "<group>"; };
+		4C4595CC14CE0CB900529752 /* input.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = input.cpp; sourceTree = "<group>"; };
+		4C4595CD14CE0CB900529752 /* input.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = input.h; sourceTree = "<group>"; };
+		4C4595CE14CE0CB900529752 /* jello.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jello.cpp; sourceTree = "<group>"; };
+		4C4595CF14CE0CB900529752 /* jello.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jello.h; sourceTree = "<group>"; };
+		4C4595D014CE0CB900529752 /* openGL-headers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "openGL-headers.h"; sourceTree = "<group>"; };
+		4C4595D114CE0CB900529752 /* physics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = physics.cpp; sourceTree = "<group>"; };
+		4C4595D214CE0CB900529752 /* physics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = physics.h; sourceTree = "<group>"; };
+		4C4595D314CE0CB900529752 /* pic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pic.cpp; sourceTree = "<group>"; };
+		4C4595D414CE0CB900529752 /* pic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pic.h; sourceTree = "<group>"; };
+		4C4595D514CE0CB900529752 /* ppm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ppm.cpp; sourceTree = "<group>"; };
+		4C4595D614CE0CB900529752 /* showCube.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = showCube.cpp; sourceTree = "<group>"; };
+		4C4595D714CE0CB900529752 /* showCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = showCube.h; sourceTree = "<group>"; };
+		4C4595D914CE0CB900529752 /* gravity.w */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gravity.w; sourceTree = "<group>"; };
+		4C4595DA14CE0CB900529752 /* jello.w */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jello.w; sourceTree = "<group>"; };
+		4C4595DB14CE0CB900529752 /* moveLeft.w */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = moveLeft.w; sourceTree = "<group>"; };
+		4C4595DC14CE0CB900529752 /* rotate.w */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rotate.w; sourceTree = "<group>"; };
+		4C4595DD14CE0CB900529752 /* skewedCorner.w */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = skewedCorner.w; sourceTree = "<group>"; };
+		4C4595EC14CE0DBB00529752 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = ../../../../System/Library/Frameworks/OpenGL.framework; sourceTree = "<group>"; };
+		4C4595EE14CE0DEB00529752 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		4C68FC6114E1EF240050194A /* lighting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lighting.h; sourceTree = "<group>"; };
+		4C8716E414DE5B9E0024CDC7 /* custom.w */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = custom.w; sourceTree = "<group>"; };
+		4CE4374714E039F00092D71B /* ActorPicking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActorPicking.h; sourceTree = "<group>"; };
+		4CE4374914E03A910092D71B /* ActorPicking.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ActorPicking.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C4595BC14CE0C8F00529752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4595ED14CE0DBB00529752 /* OpenGL.framework in Frameworks */,
+				4C4595EF14CE0DEB00529752 /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C4595B414CE0C8F00529752 = {
+			isa = PBXGroup;
+			children = (
+				4C4595EE14CE0DEB00529752 /* GLUT.framework */,
+				4C4595EC14CE0DBB00529752 /* OpenGL.framework */,
+				4C4595C214CE0C8F00529752 /* JelloCube */,
+				4C4595C014CE0C8F00529752 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C4595C014CE0C8F00529752 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C4595BF14CE0C8F00529752 /* JelloCube */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C4595C214CE0C8F00529752 /* JelloCube */ = {
+			isa = PBXGroup;
+			children = (
+				4C4595C514CE0C8F00529752 /* JelloCube.1 */,
+				4CE4374914E03A910092D71B /* ActorPicking.cpp */,
+				4C4595CC14CE0CB900529752 /* input.cpp */,
+				4C4595CE14CE0CB900529752 /* jello.cpp */,
+				4C3CDB4514DA4D4600AD6CC6 /* performanceCounter.cpp */,
+				4C4595D114CE0CB900529752 /* physics.cpp */,
+				4C4595D314CE0CB900529752 /* pic.cpp */,
+				4C4595D514CE0CB900529752 /* ppm.cpp */,
+				4C4595D614CE0CB900529752 /* showCube.cpp */,
+				4CE4374714E039F00092D71B /* ActorPicking.h */,
+				4C4595CD14CE0CB900529752 /* input.h */,
+				4C4595CF14CE0CB900529752 /* jello.h */,
+				4C4595D014CE0CB900529752 /* openGL-headers.h */,
+				4C3CDB4614DA4D4700AD6CC6 /* performanceCounter.h */,
+				4C4595D214CE0CB900529752 /* physics.h */,
+				4C4595D414CE0CB900529752 /* pic.h */,
+				4C4595D714CE0CB900529752 /* showCube.h */,
+				4C4595D814CE0CB900529752 /* world */,
+				4C68FC6114E1EF240050194A /* lighting.h */,
+			);
+			path = JelloCube;
+			sourceTree = "<group>";
+		};
+		4C4595D814CE0CB900529752 /* world */ = {
+			isa = PBXGroup;
+			children = (
+				4C8716E414DE5B9E0024CDC7 /* custom.w */,
+				4C4595D914CE0CB900529752 /* gravity.w */,
+				4C4595DA14CE0CB900529752 /* jello.w */,
+				4C4595DB14CE0CB900529752 /* moveLeft.w */,
+				4C4595DC14CE0CB900529752 /* rotate.w */,
+				4C4595DD14CE0CB900529752 /* skewedCorner.w */,
+			);
+			path = world;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C4595BE14CE0C8F00529752 /* JelloCube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C4595C914CE0C8F00529752 /* Build configuration list for PBXNativeTarget "JelloCube" */;
+			buildPhases = (
+				4C4595BB14CE0C8F00529752 /* Sources */,
+				4C4595BC14CE0C8F00529752 /* Frameworks */,
+				4C4595BD14CE0C8F00529752 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JelloCube;
+			productName = JelloCube;
+			productReference = 4C4595BF14CE0C8F00529752 /* JelloCube */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C4595B614CE0C8F00529752 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4C4595B914CE0C8F00529752 /* Build configuration list for PBXProject "JelloCube" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C4595B414CE0C8F00529752;
+			productRefGroup = 4C4595C014CE0C8F00529752 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C4595BE14CE0C8F00529752 /* JelloCube */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C4595BB14CE0C8F00529752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4595DE14CE0CB900529752 /* input.cpp in Sources */,
+				4C4595DF14CE0CB900529752 /* jello.cpp in Sources */,
+				4C4595E014CE0CB900529752 /* physics.cpp in Sources */,
+				4C4595E114CE0CB900529752 /* pic.cpp in Sources */,
+				4C4595E214CE0CB900529752 /* ppm.cpp in Sources */,
+				4C4595E314CE0CB900529752 /* showCube.cpp in Sources */,
+				4C3CDB4714DA4D4700AD6CC6 /* performanceCounter.cpp in Sources */,
+				4CE4374A14E03A910092D71B /* ActorPicking.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4C4595C714CE0C8F00529752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4C4595C814CE0C8F00529752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4C4595CA14CE0C8F00529752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C4595CB14CE0C8F00529752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C4595B914CE0C8F00529752 /* Build configuration list for PBXProject "JelloCube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4595C714CE0C8F00529752 /* Debug */,
+				4C4595C814CE0C8F00529752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C4595C914CE0C8F00529752 /* Build configuration list for PBXNativeTarget "JelloCube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4595CA14CE0C8F00529752 /* Debug */,
+				4C4595CB14CE0C8F00529752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C4595B614CE0C8F00529752 /* Project object */;
+}
